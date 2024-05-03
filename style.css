@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional background color */
+  }
+  
+  .container {
+    display: flex;
+    width: 80%; /* Adjust container width as needed */
+  }
+  
+  .left-image {
+    width: auto;
+    height: 300px; /* Set image width to half the container */
+    
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%; /* Set login box width to half the container */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .form-group {
+    display: flex; /* Arrange icons and text boxes side-by-side */
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .form-group i {
+    margin-right: 10px; /* Spacing between icon and text box */
+    color: #3498db; /* Adjust icon color */
+  }
+  
+  .form-group input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Text box spans full width */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    color: white;
+    background-color: #3498db; /* Adjust button color */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Button hover effect */
+  }
+  
